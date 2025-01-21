@@ -7,6 +7,7 @@ RUN apk add --no-cache git
 WORKDIR daedalOS
 COPY . .
 
+RUN yarn cache clean
 RUN yarn
 RUN yarn build
 
