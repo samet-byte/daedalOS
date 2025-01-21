@@ -185,7 +185,7 @@
 
 - [WebODF](https://webodf.org/)
 - [docx2html](https://github.com/lalalic/docx2html)
-- [Pandoc](https://github.com/jgm/pandoc)
+- [Pandoc](https://github.com/tweag/pandoc-wasm)
 - [gdal3.js](https://github.com/bugra9/gdal3.js)
 - [Epub.js](https://github.com/futurepress/epub.js/)
 - Barcode / QR
@@ -228,6 +228,10 @@
 - [Palm](https://github.com/cloudpilot-emu/cloudpilot-emu)
 - [Commodore 64](https://github.com/mborgbrant/c64js)
 - [RetroArch](https://github.com/BinBashBanana/webretro)
+
+### Microkernel
+
+- [exaequOS](https://www.exaequos.com/)
 
 ### Messaging Protocols
 
@@ -288,6 +292,7 @@
 - [fireworks.js](https://github.com/crashmax-dev/fireworks-js)
 - [Cursor Effects](https://tholman.com/cursor-effects/)
 - [Bobby Blue-Eyes](https://www.derschmale.com/lab/doodles/blueeyes/build/)
+- [CODEF Demoscene Gallery](https://www.wab.com/)
 
 ## Games
 
