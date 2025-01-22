@@ -73,3 +73,5 @@ const rss = [
 ].join("");
 
 writeFileSync(join(PUBLIC_PATH, "rss.xml"), rss, { flag: "w" });
+
+console.log("RSS feed generated");

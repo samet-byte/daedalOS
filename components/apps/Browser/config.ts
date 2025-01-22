@@ -18,6 +18,12 @@ export const DINO_GAME = {
   url: "chrome://dino",
 };
 
+export const CINEQUILT = {
+  icon: "/System/Icons/Favicons/cq.png",
+  name: "Cinequilt",
+  url: "https://cq.sametb.me/",
+};
+
 export const bookmarks: Bookmark[] = [
   {
     icon: FAVICON_BASE_PATH,
@@ -30,6 +36,7 @@ export const bookmarks: Bookmark[] = [
     url: "http://localhost/",
   },
   DINO_GAME,
+  CINEQUILT,
   {
     icon: "/System/Icons/Favicons/google.webp",
     name: "Google",

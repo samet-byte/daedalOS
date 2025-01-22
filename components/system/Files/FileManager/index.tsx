@@ -55,7 +55,9 @@ type FileManagerProps = {
   url: string;
 };
 
-const DEFAULT_VIEW = "icon";
+// default view is details
+// const DEFAULT_VIEW = "icon";
+const DEFAULT_VIEW = "details";
 
 const FileManager: FC<FileManagerProps> = ({
   allowMovingDraggableEntries,
@@ -75,6 +77,7 @@ const FileManager: FC<FileManagerProps> = ({
 }) => {
   const { views, setViews } = useSession();
   const view = useMemo(() => {
+    // if (isDesktop) return "list";
     if (isDesktop) return "icon";
     if (isStartMenu) return "list";
 
