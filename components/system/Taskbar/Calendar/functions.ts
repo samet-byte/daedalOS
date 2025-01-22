@@ -16,7 +16,11 @@ const FIRST_WEEK: Day[] = [
 ];
 
 export const CELEBRATIONS: Record<number, Record<number, boolean>> = {
-  11: { 26: true },
+  10: { 22: true },
+  11: { 13: true },
+  3: { 1: true, 7: true },
+  7: { 17: true, 9: true },
+  9: { 27: true },
 };
 
 export const createCalendar = (date: Date): Calendar => {

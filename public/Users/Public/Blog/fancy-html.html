@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Placeholder Page</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            color: #2c3e50;
+            margin-bottom: 1.5rem;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        p {
+            color: #636e72;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        .placeholder-image {
+            width: 100%;
+            height: 300px;
+            background: linear-gradient(45deg, #74b9ff, #0984e3);
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            opacity: 0;
+            transform: scale(0.95);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .feature {
+            padding: 1.5rem;
+            background: rgba(255, 255, 255, 0.5);
+            border-radius: 10px;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        .feature h3 {
+            color: #2d3436;
+            margin-bottom: 0.5rem;
+        }
+
+        .feature p {
+            font-size: 0.9rem;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Our Space</h1>
+        <p>This is a beautifully crafted placeholder page showcasing elegant design and smooth animations. Perfect for your upcoming project.</p>
+        <div class="placeholder-image"></div>
+        <div class="features">
+            <div class="feature">
+                <h3>Feature One</h3>
+                <p>Discover amazing possibilities with our first feature highlight.</p>
+            </div>
+            <div class="feature">
+                <h3>Feature Two</h3>
+                <p>Experience the power of innovation with our second feature.</p>
+            </div>
+            <div class="feature">
+                <h3>Feature Three</h3>
+                <p>Transform your ideas into reality with our third feature.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        gsap.from("h1", {
+            duration: 1,
+            y: 20,
+            opacity: 0,
+            ease: "power3.out"
+        });
+
+        gsap.from("p", {
+            duration: 1,
+            y: 20,
+            opacity: 0,
+            delay: 0.3,
+            ease: "power3.out"
+        });
+
+        gsap.from(".placeholder-image", {
+            duration: 1,
+            scale: 0.95,
+            opacity: 0,
+            delay: 0.6,
+            ease: "power3.out"
+        });
+
+        gsap.from(".feature", {
+            duration: 1,
+            y: 20,
+            opacity: 0,
+            delay: 0.9,
+            stagger: 0.2,
+            ease: "power3.out"
+        });
+    </script>
+</body>
+</html>
