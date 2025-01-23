@@ -75,6 +75,7 @@ const Taskbar: FC = () => {
           toggleCalendar={toggleCalendar}
           width={clockWidth}
         />
+
         {hasAI && <AIButton aiVisible={aiVisible} toggleAI={toggleAI} />}
       </StyledTaskbar>
       <AnimatePresence initial={false} presenceAffectsLayout={false}>
