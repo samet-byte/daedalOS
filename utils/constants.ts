@@ -346,7 +346,7 @@ export const PACKAGE_DATA = {
     email: "sambaskent@gmail.com",
     name: "Samet Bayat",
     npub: "npub1xuxnplqyr29er94g3g8k5pyn5cpuxmkg56xhga47e8szegdmafwsprh56q",
-    url: "https://sametb.me",
+    url: "https://os.sametb.me",
   },
   description: "Desktop environment in the browser",
   license: "MIT",
