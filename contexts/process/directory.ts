@@ -192,7 +192,7 @@ const directory: Processes = {
     Component: dynamic(() => import("components/apps/Paint")),
     backgroundColor: "#808080",
     icon: "/System/Icons/paint.webp",
-    libs: ["/Program Files/jspaint/"],
+    libs: ["/Program Files/jspaint/index.html"],
     title: "Paint",
   },
   Photos: {

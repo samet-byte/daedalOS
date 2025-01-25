@@ -14,7 +14,7 @@ export type WaybackUrlInfo = {
 export const DINO_GAME = {
   icon: "/System/Icons/Favicons/dino.webp",
   name: "T-Rex Chrome Dino Game",
-  path: "/Program Files/Browser/dino/",
+  path: "/Program Files/Browser/dino/index.html",
   url: "chrome://dino",
 };
 
