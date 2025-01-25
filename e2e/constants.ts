@@ -272,6 +272,8 @@ export const ROOT_PUBLIC_FOLDER = "public";
 
 export const ROOT_PUBLIC_TEST_FILE = "desktop.ini";
 
+// todo: blog posts details
+
 export const ROOT_FOLDER_VIEW = "details";
 
 export const CURSOR_SPACE_LENGTH = 1;

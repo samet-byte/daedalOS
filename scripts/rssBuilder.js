@@ -67,7 +67,7 @@ const rss = [
   `<link>${author.url}</link>`,
   `<description>${description}</description>`,
   `<lastBuildDate>${lastBuildDate || new Date().toUTCString()}</lastBuildDate>`,
-  ...createRssFeedItems("Users/Public/Documents/Blog Posts"),
+  ...createRssFeedItems("Users/Public/My Stuff/Blog Posts"),
   "</channel>",
   "</rss>",
 ].join("");

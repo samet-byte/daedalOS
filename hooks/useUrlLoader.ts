@@ -27,10 +27,11 @@ const useUrlLoader = (): void => {
       if (!initialApp) return;
 
       let urlExists = false;
-
+      // Is this a browser URL?
       try {
         urlExists =
-          (initialApp === "Browser" && isBrowserUrl(url)) ||
+          ((initialApp === "Browser" || initialApp === "SimpleBrowser") &&
+            isBrowserUrl(url)) ||
           (await exists(url));
       } catch {
         // Ignore error checking if url exists

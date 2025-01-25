@@ -56,8 +56,8 @@ type FileManagerProps = {
 };
 
 // default view is details
-// const DEFAULT_VIEW = "icon";
-const DEFAULT_VIEW = "details";
+const DEFAULT_VIEW = "icon";
+// const DEFAULT_VIEW = "details";
 
 const FileManager: FC<FileManagerProps> = ({
   allowMovingDraggableEntries,

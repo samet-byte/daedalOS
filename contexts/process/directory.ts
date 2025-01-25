@@ -26,8 +26,8 @@ const directory: Processes = {
     Component: dynamic(() => import("components/apps/Browser")),
     backgroundColor: "#FFF",
     defaultSize: {
-      height: 500,
-      width: 600,
+      height: 500 * 1.25,
+      width: 600 * 1.25,
     },
     icon: "/System/Icons/chromium.webp",
     title: "Browser",
@@ -85,8 +85,8 @@ const directory: Processes = {
     Component: dynamic(() => import("components/apps/FileExplorer")),
     backgroundColor: "#202020",
     defaultSize: {
-      height: 325,
-      width: 447,
+      height: 325 * 2,
+      width: 447 * 2,
     },
     icon: FOLDER_ICON,
     title: "File Explorer",
@@ -99,7 +99,7 @@ const directory: Processes = {
       width: 704,
     },
     icon: "/System/Icons/kiwiirc.webp",
-    libs: ["/Program Files/kiwiirc/index.html"],
+    libs: ["/Program Files/kiwiirc/"],
     title: "IRC",
   },
   JSDOS: {
@@ -261,6 +261,16 @@ const directory: Processes = {
     },
     singleton: true,
     title: "Run",
+  },
+  SimpleBrowser: {
+    Component: dynamic(() => import("components/apps/SimpleBrowser")),
+    backgroundColor: "#FFF",
+    defaultSize: {
+      height: 500,
+      width: 600,
+    },
+    icon: "/System/Icons/b-net.png",
+    title: "SimpleBrowser",
   },
   SpaceCadet: {
     Component: dynamic(() => import("components/apps/SpaceCadet")),
