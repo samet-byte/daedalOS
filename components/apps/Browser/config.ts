@@ -14,7 +14,7 @@ export type WaybackUrlInfo = {
 export const DINO_GAME = {
   icon: "/System/Icons/Favicons/dino.webp",
   name: "T-Rex Chrome Dino Game",
-  path: "/Program Files/Browser/dino/index.html",
+  path: "/Program Files/Browser/dino/index2.html",
   url: "chrome://dino",
 };
 
@@ -30,6 +30,11 @@ export const CINEQUILT = {
 export const bookmarks: Bookmark[] = [
   {
     icon: FAVICON_BASE_PATH,
+    name: "byte-sized adventures.",
+    url: "https://sametb.me/",
+  },
+  {
+    icon: "/b-dbfav.ico",
     name: "daedalOS",
     url: "https://dustinbrett.com/",
   },
@@ -59,6 +64,16 @@ export const bookmarks: Bookmark[] = [
     icon: "/System/Icons/webamp.webp",
     name: "Winamp Skin Museum",
     url: "https://skins.webamp.org/",
+  },
+  {
+    icon: "/win95.ico",
+    name: "Sam UI95",
+    url: "https://ui.sametb.me/",
+  },
+  {
+    icon: "data:image/gif;base64,R0lGODlhIAAgAMIFAAAAAAAAv4CAgMDAwP///wQz/wQz/wQz/yH5BAEKAAcALAAAAAAgACAAAAOBeLrc/jDKKKq9OGsLxPhgKI7kIHRDoK5s676n987sB9h2nNI0Ptw/HY8GKBqNupJyaUJtntCmR0CoWq/YLFZq0nq/VS4VTL6Ky2jCOU1es7/utzYu3+rG9Sw9H77z9X5/ZoGCfU6FVnt8inmMdY5yXEyTIjFQl09HmpucnUYToBEJADs=",
+    name: "Windows 95",
+    url: "https://ash.ms/",
   },
   {
     icon: "/System/Icons/Favicons/win96.webp",
