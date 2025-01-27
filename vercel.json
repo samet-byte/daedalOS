@@ -1,9 +1,9 @@
 {
+  "version": 2,
   "builds": [
     {
-      "src": "out/**",
-      "use": "@vercel/static"
+      "src": "package.json",
+      "use": "@vercel/next"
     }
-  ],
-  "routes": [{ "handle": "filesystem" }, { "src": "/(.*)", "dest": "/out/$1" }]
+  ]
 }
