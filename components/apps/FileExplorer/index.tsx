@@ -97,7 +97,7 @@ const FileExplorer: FC<ComponentProcessProps> = ({ id }) => {
   useEffect(() => {
     if (componentWindow && !closing && !url) {
       setProcessUrl(id, "/");
-      setProcessIcon(id, "/System/Icons/pc.webp");
+      setProcessIcon(id, "/System/Icons/b-laptop.png");
     }
   }, [closing, id, componentWindow, setProcessIcon, setProcessUrl, url]);
 
