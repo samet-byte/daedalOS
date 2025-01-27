@@ -1,14 +1,9 @@
 {
   "builds": [
     {
-      "src": "package.json",
-      "use": "@vercel/node"
+      "src": "out/**",
+      "use": "@vercel/static"
     }
   ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/out/$1"
-    }
-  ]
+  "routes": [{ "handle": "filesystem" }, { "src": "/(.*)", "dest": "/out/$1" }]
 }
