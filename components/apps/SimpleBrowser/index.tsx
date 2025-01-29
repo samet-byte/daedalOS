@@ -412,6 +412,7 @@ const Browser: FC<ComponentProcessProps> = ({ id }) => {
         srcDoc={srcDoc || undefined}
         title={id}
         {...IFRAME_CONFIG}
+        allowFullScreen
       />
     </StyledBrowser>
   );
