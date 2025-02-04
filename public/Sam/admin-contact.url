@@ -1,0 +1,5 @@
+[InternetShortcut]
+BaseURL=SimpleBrowser
+Comment=Contact Me List (Admin)
+IconFile=/System/Icons/b-hitmeup.png
+URL=https://api.sametb.me/contact-me/all
